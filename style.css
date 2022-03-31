@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  position: relative;
+}
+
+.cima {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(2, 2, 2);
+  box-shadow: 8px 3px 5px -1px rgba(0, 0, 0, 0.75);
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+}
+
+.bord {
+  right: 50px;
+  position: relative;
+  width: 300px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgb(27, 27, 27);
+  box-shadow: 5px -4px 0px -4px rgba(0, 0, 0, 0.75);
+}
+
+.rosa {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  background-color: rgb(245, 211, 137);
+  box-shadow: 1px 6px 12px 0px rgba(236, 175, 105, 0.75) inset;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+.leye {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: black;
+  box-shadow: 4px 10px 27px 0px rgba(37, 29, 19, 0.75);
+  position: absolute;
+  top: 380px;
+  left: 550px;
+}
+.iris {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(230, 230, 235);
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+}
+
+.reye {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 50%;
+  background: rgb(0, 0, 0);
+  box-shadow: 4px 10px 27px 0px rgba(49, 42, 42, 0.75);
+  right: 170px;
+  bottom: -70px;
+}
+.boca {
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 0px 0px 200px 200px;
+  position: relative;
+  top: 70px;
+  left: 40px;
+}
+.dente {
+  width: 60px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 0px 0px 126px 125px;
+}
+
+.boca:hover {
+  height: 20px;
+  transition: 0.5s;
+}
